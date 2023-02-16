@@ -1,0 +1,10 @@
+version: '2'
+
+
+services:
+
+  mavros:
+    image: basmango/solo-mavros
+    network_mode: "host"    
+    restart: always
+  
