@@ -6,5 +6,7 @@ services:
   mavros:
     image: basmango/solo-mavros
     network_mode: "host"    
-    restart: always
-  
+  takeoff:
+    image: basmango/dronekit-takeoff:latest
+    network_mode: "host"
+    

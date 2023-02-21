@@ -5,7 +5,8 @@ services:
   solo-video:
     image: basmango/ros-solo-video-bridge
     network_mode: "host"  
-
+ 
+ 
   aruco-detector:
     image: basmango/aruco-detector:latest
     network_mode: "host"  
@@ -14,10 +15,6 @@ services:
     image: basmango/solo-mavros
     network_mode: "host"    
 
-  mavros-arm-and-takeoff:
-    image: basmango/dronekit-takeoff:latest
-    network_mode: "host"    
- 
   solo-ping:
     image: subfuzion/netcat
     command: 10.1.1.1 5502
