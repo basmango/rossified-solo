@@ -19,4 +19,3 @@ services:
     image: subfuzion/netcat
     command: 10.1.1.1 5502
     network_mode: "host"
- 
